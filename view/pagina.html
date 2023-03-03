@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../libreria/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="shortcut icon" href="../img/logopestaña.png">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <title>Universe Ftl</title>
+</head>
+<body>
+
+    <!-- boton ir arriba -->
+    <div id="btn-top">
+        <span class="fas fa-angle-up"></span>
+    </div>
+
+    <!-- Barra principal -->
+    <div class="barra-nav">
+        <div class="logo" id="logo">
+            <img src="../img/logopestaña.png" alt="logo">
+        </div>
+
+        <div class="barra" id="barra-bar">
+            <i class="fas fa-angle-right" id="btnMenuClose"></i>
+            <nav class="enlaces" id="enlaces">
+                <ul>
+                    <li><a href="#deportes">Deportes</a></li>
+                    <li><a href="#equipo">Equipos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+
+                </ul>
+            </nav>
+
+            <div class="redes">
+                <a href="#"><span class="fab fa-facebook"></span></a>
+                <a href="#"><span class="fab fa-instagram"></span></a>
+                <a href="#"><span class="fab fa-twitter"></span></a>
+                <a href="#"><span class="fab fa-youtube"></span></a>
+            </div>
+
+        </div>
+
+        <i class="fas fa-bars" id="btnMenuOpen"></i>
+    </div>
+
+
+    <!-- Slide Noticias -->
+    <section id="menu-noticias">
+        <div class="contenedor-principal">
+            <button id="btn-izquierda"><span class="fas fa-angle-left"></span></button>
+
+            <div class="slider">
+                <div class="container-noticias">
+                    <div class="descripcion-noticias">
+                        <h2>Premios <b>the best</b></h2>
+                        <h1>Messi el mejor del mundo</h1>
+                        <p>El astro campeón del mundo en Qatar 
+                            obtuvo su tercer premio The Best en 
+                            una gala dominada por el futbol argentino.</p>
+
+                            <button class="btn">Leer <span class="fas fa-angle-double-right"></span></button>
+                    </div>
+
+                    <div class="imagen-noticias">
+                        <img src="../img/noticias/thebest.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="container-noticias">
+                    <div class="descripcion-noticias">
+                        <h2>Nueva <b>Edicion</b></h2>
+                        <h1>El Clasico</h1>
+                        <p>Real Madrid y Barcelona se verán las caras en la ida de semifinales de Copa del Rey en el Estadio Santiago Bernabéu.</p>
+
+                            <button class="btn">Leer <span class="fas fa-angle-double-right"></span></button>
+                    </div>
+
+                    <div class="imagen-noticias">
+                        <img src="../img/noticias/partido.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="container-noticias">
+                    <div class="descripcion-noticias">
+                        <h2>Partidos <b>Vuelta</b></h2>
+                        <h1>Champions League</h1>
+                        <p>Los partidos de vuelta de octavos de final de la 
+                            UEFA Champions League comienzan el 7 de marzo con 
+                            el Chelsea y el Brujas intentando remontar sus desventajas.</p>
+
+                            <button class="btn">Leer <span class="fas fa-angle-double-right"></span></button>
+                    </div>
+
+                    <div class="imagen-noticias">
+                        <img src="../img/noticias/champions.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="container-noticias">
+                    <div class="descripcion-noticias">
+                        <h2>Nuevo <b>Director</b></h2>
+                        <h1>Cruz Azul</h1>
+                        <p>“Sin duda había varios candidatos, era difícil decidir, 
+                            era gente con gran experiencia, con gran respaldo de lo 
+                            que han logrado. Al final, el Tuca un poquito toda la 
+                            experiencia que tiene, el buen manejo de grupo, la exigencia, 
+                            por eso nos decidimos por él.</p>
+
+                            <button class="btn">Leer <span class="fas fa-angle-double-right"></span></button>
+                    </div>
+
+                    <div class="imagen-noticias">
+                        <img src="../img/noticias/cruz azul.png" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="container-noticias">
+                    <div class="descripcion-noticias">
+                        <h2>Nueva <b>Convocatoria</b></h2>
+                        <h1>Seleccion Mexicana</h1>
+                        <p>La selección de fútbol​de México es 
+                            el equipo masculino representativo 
+                            en las competiciones oficiales.</p>
+
+                            <button class="btn">Leer <span class="fas fa-angle-double-right"></span></button>
+                    </div>
+
+                    <div class="imagen-noticias">
+                        <img src="../img/noticias/seleccion.png" alt="">
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <button id="btn-derecha"><span class="fas fa-angle-right"></span></button>
+        </div>
+    </section>
+
+    
+    <!-- Seccion servicios -->
+    <section id="deportes">
+        <div class="deportes-titulo">
+            <h2 class="subtitulos">Los mejores deportes del mundo</h2>
+            <h1 class="titulos">Deportes</h1>
+        </div>
+
+        <div class="deportes-container">
+            <div class="imagen-central">
+                <img src="../img/deportes.png" alt="">
+            </div>
+
+            <div class="items futbol">
+                <p><span class="fa-solid fa-futbol"></span></p>
+                <p class="titulo-item">Futbol</p>
+                <p class="textp-item">Liga MX, La Liga, Premier, Bundesliga, MLS.</p>
+            </div>
+
+            <div class="items basquet">
+                <p><span class="fa-solid fa-basketball"></span></p>
+                <p class="titulo-item">Basquetbol</p>
+                <p class="textp-item">Toda la NBA.</p>
+            </div>
+
+            <div class="items americano">
+                <p><span class="fa-solid fa-football"></span></p>
+                <p class="titulo-item">Americano</p>
+                <p class="textp-item">Las mejores noticias de la NFL</p>
+            </div>
+            <div class="items beis">
+                <p><span class="fa-solid fa-baseball"></span></p>
+                <p class="titulo-item">Beisbol</p>
+                <p class="textp-item">Liga mexicana, MLB, Liga del caribe.</p>
+            </div>
+
+
+
+
+
+        </div>
+    </section>
+
+
+    <!-- Seccion de ligas -->
+    <section id="equipo">
+        <div class="barcelona">
+            <img src="../img/barce.jpg" alt="" class="club-imagen">
+            <div class="info">
+                <h2>Fc. Barcelona</h2>
+                <p>La Liga Santander</p>
+                <div class="sociales">
+                    <a href=""><span class="fab fa-facebook"></span></a>
+                    <a href=""><span class="fab fa-instagram"></span></a>
+                    <a href=""><span class="fab fa-twitter"></span></a>
+                    <a href=""><span class="fab fa-youtube"></span></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="barcelona">
+            <img src="../img/borusia.jpg" alt="" class="club-imagen">
+            <div class="info">
+                <h2>Borussia Dortmund</h2>
+                <p>Bundesliga</p>
+                <div class="sociales">
+                    <a href=""><span class="fab fa-facebook"></span></a>
+                    <a href=""><span class="fab fa-instagram"></span></a>
+                    <a href=""><span class="fab fa-twitter"></span></a>
+                    <a href=""><span class="fab fa-youtube"></span></a>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="barcelona">
+            <img src="../img/machester.jpg" alt="" class="club-imagen">
+            <div class="info">
+                <h2>Manchester City</h2>
+                <p>Premier League</p>
+                <div class="sociales">
+                    <a href=""><span class="fab fa-facebook"></span></a>
+                    <a href=""><span class="fab fa-instagram"></span></a>
+                    <a href=""><span class="fab fa-twitter"></span></a>
+                    <a href=""><span class="fab fa-youtube"></span></a>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="barcelona">
+            <img src="../img/cruz.jpg" alt="" class="club-imagen">
+            <div class="info">
+                <h2>FC. Cruz Azul</h2>
+                <p>Liga Mx</p>
+                <div class="sociales">
+                    <a href=""><span class="fab fa-facebook"></span></a>
+                    <a href=""><span class="fab fa-instagram"></span></a>
+                    <a href=""><span class="fab fa-twitter"></span></a>
+                    <a href=""><span class="fab fa-youtube"></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Seccion ingredientes -->
+    <section id="ligas">
+        <div class="lig">
+            <img src="../img/santander.jpg" alt="" class="imagen-liga">
+            <div class="info-liga">
+                <p><span class="fa-solid fa-futbol"></span></p>
+                <p class="txt-liga">La Liga</p>
+            </div>
+        </div>
+
+
+        <div class="lig">
+            <img src="../img/bbva liga.jpg" alt="" class="imagen-liga">
+            <div class="info-liga">
+                <p><span class="fa-solid fa-futbol"></span></p>
+                <p class="txt-liga">Liga MX</p>
+            </div>
+        </div>
+
+        <div class="lig">
+            <img src="../img/premier.png" alt="" class="imagen-liga">
+            <div class="info-liga">
+                <p><span class="fa-solid fa-futbol"></span></p>
+                <p class="txt-liga">Premier</p>
+            </div>
+        </div>
+
+        <div class="lig">
+            <img src="../img/liga1.png" alt="" class="imagen-liga">
+            <div class="info-liga">
+                <p><span class="fa-solid fa-futbol"></span></p>
+                <p class="txt-liga">Ligue One</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </section>
+
+    
+    <!-- Seccion de contacto -->
+    <section id="contacto">
+        <div class="titulo contacto">
+            <h2 class="subtitulos">Queremos conocer tu opinion</h2>
+            <h1 class="titulos">Contactanos</h1>
+        </div>
+
+        <form action="" id="formulario">
+            <div class="two-fiels">
+                <div class="inputConIcon">
+                    <input type="text" id="nombre" name="nombre" class="input-text" placeholder="Nombre">
+                    <i class="fas fa-user"></i>
+                </div>
+
+                <div class="inputConIcon">
+                    <input type="email" id="email" name="email" class="input-email" placeholder="Email">
+                    <i class="fas fa-envelope"></i>
+                </div>
+            </div>
+
+
+            <div class="fiels">
+                <div class="inputConIcon textareaIcon">
+                    <textarea name="comentarios" id="comentarios" class="textarea" placeholder="Ingrese comentarios"></textarea>
+                    <i class="fas fa-comments"></i>
+                </div>
+            </div>
+
+            <div class="fiels-btn">
+                <input type="submit" class="btn btn-input" value="Enviar">
+            </div>
+
+        </form>
+    </section>
+
+
+    <!-- Alertas -->
+    <div class="alertas">
+        <div id="alertError" class="alert hide">
+            <span class="icono-alert fas fa-exclamation-circle"></span>
+            <span class="msg">Error:Campos de entrada vacios.</span>
+        </div>
+
+        <div id="alertSuccess" class="alert hide">
+            <span class="icono-alert fas fa-check-circle"></span>
+            <span class="msg">Datos enviados, gracias por tus comentarios.</span>
+        </div>
+
+    </div>
+    
+
+    <!-- Seccion Footer -->
+    <footer>
+        <div class="sociales-metodo">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Lorem ipsum dolor sit amet.</span>
+        </div>
+
+        <div class="sociales-metodo">
+            <i class="fas fa-envelope"></i>
+            <span>info@universedpr.com</span>
+        </div>
+
+        <div class="sociales-metodo">
+            <i class="fas fa-phone"></i>
+            <span>55 13 30 43 54</span>
+        </div>
+
+        <div class="sociales-metodo">
+            <i class="fab fa-twitter"></i>
+            <span>@univerdpr</span>
+        </div>
+
+
+
+    </footer>
+
+
+    <script src="../js/pag.js"></script>
+</body>
+</html>
