@@ -98,7 +98,7 @@ var btnOpenmenu = document.getElementById("btnMenuOpen"),
             fullSize = document.documentElement.offsetHeight,
             sizeVp = document.documentElement.clientHeight;
 
-            scroll=scroll-.800048828125;
+            // scroll=scroll-.800048828125;
 
         if (scroll > 100) {
             btnTop.classList.add("show");
